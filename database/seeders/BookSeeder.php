@@ -12,6 +12,12 @@ class BookSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        Book::create([
+            'judul' => 'Basis Data 11',
+            'pengarang' => 'Kemendikbud',
+            'penerbit' => 'Kemendikbud',
+            'tahun_terbit' => 2022,
+            'jumlah_halaman' => 200,
+        ]);
     }
 }
