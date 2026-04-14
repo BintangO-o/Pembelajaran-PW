@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Route::resource('buku', BookController::class);
+Route::get('/template/index',[BookController::class,'template']);
+Route::get('/template/daftar_siswa',[BookController::class,'daftar_siswa']);

@@ -1,0 +1,22 @@
+@extends('template.main')
+
+@section('content')
+<table>
+    <tr>
+        <td>no</td>
+        <td>nama</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Budi</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Andi</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Siti</td>
+    </tr>
+</table>
+@endsection

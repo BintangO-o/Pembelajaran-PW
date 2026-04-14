@@ -16,6 +16,16 @@ class BookController extends Controller
         return view('daftar_buku', compact('books'));
     }
 
+    public function template()
+    {
+        return view('template.main');
+    }
+
+    public function daftar_siswa()
+    {
+        return view('template.daftar_siswa');
+    }
+
     /**
      * Show the form for creating a new resource.
      */
